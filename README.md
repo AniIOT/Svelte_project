@@ -12,3 +12,28 @@ The event handlers will detect a mouse click and the motion of the mouse. As the
 2. HTML
 
 This part has two objectives, one is to define the box class and its attributes and to display the coordinates. We also assign the mouse events to their respective handler here. 
+
+## How to Run the Application on a Web Browser:
+
+*Note: You will need to have [Node.js](https://nodejs.org) installed.*
+<!-- Ordered List -->
+1. Clone the repository and navigate to the folder 'Svelte_project'
+2. On Windows: Press and hold Shift key and right-click inside the folder
+3. Click on 'Open PowerShell window here'
+4. Install the dependencies...
+
+```bash
+npm install
+```
+5. Then start [Rollup](https://rollupjs.org):
+
+```bash
+npm run dev
+```
+6. Navigate to [localhost:8080](http://localhost:8080). You should see the app running.
+7. To create an optimized version of the app:
+
+```bash
+npm run build
+```
+
