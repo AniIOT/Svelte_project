@@ -6,6 +6,8 @@ You will find two parts of the code in the source code.
 <!-- Ordered List -->
 1. JavaScript
    
-   This part has all the variable declarations and the event handlers.
-   The event handlers will detect a mouse click and the motion of the mouse. As the handlers are a child of the box class, they will only be called if a mouse button press is detected inside the box. 
+This part has all the variable declarations and the event handlers.
+The event handlers will detect a mouse click and the motion of the mouse. As the handlers are a child of the box class, they will only be called if a mouse button press is detected inside the box. The mouse movement handler will also assign the position of the cursor to the rectangular box's location.
 3. HTML
+
+This part has two objectives, one is to define the box class and its attributes and to display the coordinates. We also assign the mouse events to their respective handler here. 
